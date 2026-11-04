@@ -3,7 +3,7 @@
     "id": "979802755792",
     "restype": "watchface",
     "name": "RasterDial佩洛伊斯光栅表盘",
-    "description": "基于重力加速度计实现的光栅动态表盘\n渐近线样式:运动表盘 画面会沿一条柔和的渐变边界在两张图之间连续切换；也可切换为类 OriginOS 的触发式整屏交叉淡化 30 Hz 动画、One Euro 消抖；点击表盘可切换「渐变线 / OriginOS」两种样式\n\n目前只在小米手环10Pro实机验证 后续会适配其他机型\n变化灵敏度有待优化 未实机评估耗电量 欢迎受到大家的反馈",
+    "description": "光栅动态表盘 RasterDial\n\n基于加速度计的手环光栅表盘：转动或翻转手腕时，画面会沿一条柔和的渐变边界在两张图之间连续流动，像真实的光栅卡片。\n两种样式，点击表盘即可切换\n\n渐变线：边界线连续跟手，转动多少走多少，持续同向循环\n类 OriginOS：越过角度阈值触发一次整屏交叉淡化，摆定即停，不会连环翻页\n实现要点\n\n30 Hz 刷新，One Euro 滤波 + 死区消抖：静止不抖，动作跟手\n以相对重力方向做角度解算，佩戴角度不同也能正常触发\n样式选择保存在设备本地，重选表盘后自动恢复\n画面 336×480 满屏，无黑边\n已适配机型\n\n机型\n小米手环 10 Pro\t\n小米手环 9 Pro\t\n\n说明与已知\n\n灵敏度按机型分别调校（9 Pro 默认更灵敏），仍欢迎反馈具体手感，会持续微调\n表盘常驻图像缓存约 5–8 MB；耗电量尚未做仪器级实测\n遇到黑屏、偏色或卡顿，请附机型、固件版本和复现动作反馈",
     "preview": [
       "media/preview_3.jpg",
       "media/preview_2.jpg",
@@ -21,6 +21,17 @@
   },
   "links": [],
   "downloads": {
+    "xmb9p": {
+      "version": "1.0.0",
+      "file_name": "downloads/RasterDial_Pyrois_Mi9Pro.face",
+      "versionCode": 65536,
+      "updatelogs": [
+        {
+          "version": "1.0.0",
+          "content": "新适配了MiBand9Pro"
+        }
+      ]
+    },
     "xmb10p": {
       "version": "1.0.0",
       "file_name": "downloads/RasterDial_R31_808163178_v65536.face",
