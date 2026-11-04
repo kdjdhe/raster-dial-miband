@@ -5,9 +5,9 @@
     "name": "RasterDial佩洛伊斯光栅表盘",
     "description": "倾斜手环，画面沿一条柔和的渐变边界在两张图之间连续切换；也可切换为类 OriginOS 的触发式整屏交叉淡化 30 Hz 动画、One Euro 消抖；表盘内点击可切换「渐变线 / OriginOS」两种样式",
     "preview": [
-      "media/preview_1.png",
-      "media/preview_2.png",
-      "media/preview_3.png",
+      "media/preview_1.jpg",
+      "media/preview_2.jpg",
+      "media/preview_3.jpg",
       "media/preview_copyright.png"
     ],
     "icon": "media/icon.png",
