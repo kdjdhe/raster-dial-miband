@@ -3,15 +3,15 @@
     "id": "979802755792",
     "restype": "watchface",
     "name": "RasterDial佩洛伊斯光栅表盘",
-    "description": "倾斜手环，画面沿一条柔和的渐变边界在两张图之间连续切换；也可切换为类 OriginOS 的触发式整屏交叉淡化 30 Hz 动画、One Euro 消抖；表盘内点击可切换「渐变线 / OriginOS」两种样式",
+    "description": "基于重力加速度计实现的光栅动态表盘\n渐近线样式:运动表盘 画面会沿一条柔和的渐变边界在两张图之间连续切换；也可切换为类 OriginOS 的触发式整屏交叉淡化 30 Hz 动画、One Euro 消抖；点击表盘可切换「渐变线 / OriginOS」两种样式\n\n目前只在小米手环10Pro实机验证 后续会适配其他机型\n变化灵敏度有待优化 未实机评估耗电量 欢迎受到大家的反馈",
     "preview": [
-      "media/preview_1.jpg",
-      "media/preview_2.jpg",
       "media/preview_3.jpg",
+      "media/preview_2.jpg",
+      "media/preview_1.jpg",
       "media/preview_copyright.png"
     ],
-    "icon": "media/icon.png",
-    "cover": "media/cover.jpg",
+    "icon": "media/icon_300_pal160.png",
+    "cover": "media/cover_final.jpg",
     "author": [
       {
         "name": "rb7swf6kzn",
